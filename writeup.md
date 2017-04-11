@@ -165,7 +165,7 @@ Here are the results of the prediction:
 | Ahead only				| Ahead only      							|
 
 
-The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. 
+The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy on the captured images of 100% while it was 91% on the testing set. Although the accuracy with new images is better, my assumption is that the model is overfitting. The soft max probabilities of the "stop sign" indicate that the current model doesn't work too well with signs that contain numbers or text. 
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
